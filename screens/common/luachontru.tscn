@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://da6p5686ue535"]
+
+[ext_resource type="Texture2D" uid="uid://cs13s8jf2fi3t" path="res://assetes/chontru.png" id="1_17xjy"]
+[ext_resource type="Script" path="res://vongtrontru.gd" id="2_dro1r"]
+
+[node name="Luachontru" type="Node2D"]
+script = ExtResource("2_dro1r")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_17xjy")
